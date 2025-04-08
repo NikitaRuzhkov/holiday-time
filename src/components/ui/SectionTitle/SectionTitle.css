@@ -1,0 +1,42 @@
+.section-title {
+    background-color: #C6C6DC;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 90px;
+}
+
+.title-inner {
+    min-width: 1400px;
+    text-align: left;
+    color: #202846;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-size: 48px;
+}
+
+@media (max-width:1615px) {
+    .section-title {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        margin-top: 90px;
+        margin-bottom: 0;
+    }
+
+    .title-inner {
+        width: 100%;
+        min-width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:768px) {
+    .title-inner {
+
+        font-size: 30px;
+    }
+}

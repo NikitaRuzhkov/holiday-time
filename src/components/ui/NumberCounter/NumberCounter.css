@@ -1,0 +1,50 @@
+.guest-counter {
+    font-size: 29px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.counter-control {
+    position: relative;
+}
+
+.counter-input {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.counter-btn {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.counter-up {
+    top: 8px;
+    right: 4px;
+    background-image: url('./../../../assets/images/counter-up.png');
+}
+
+.counter-down {
+    right: 4px;
+    bottom: 8px;
+    background-image: url('./../../../assets/images/counter-down.png');
+}
+
+@media(max-width:768px) {
+    .guest-counter {
+        font-size: 20px;
+    }
+
+    .counter-input {
+
+        font-size: 30px;
+    }
+
+}

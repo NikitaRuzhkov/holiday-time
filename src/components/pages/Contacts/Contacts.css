@@ -1,0 +1,38 @@
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    padding-top: 30px;
+}
+
+.contacts-info {
+    width: 400px;
+}
+
+.contacts-info h4 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+@media (max-width:1075px) {
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .contacts {
+        font-size: 25px;
+    }
+
+    .contacts-info {
+        width: 100%;
+        text-align: center;
+    }
+}

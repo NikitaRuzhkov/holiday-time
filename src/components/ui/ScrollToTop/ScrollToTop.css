@@ -1,0 +1,44 @@
+.scrollToTop {
+    position: fixed;
+    right: 0;
+    bottom: 120px;
+    width: 100px;
+    height: 100px;
+    background-color: #555768;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s linear;
+}
+
+.scrollToTop.active {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    right: 20px;
+}
+
+/* .myInput::placeholder {
+    color: #888;
+    font-style: italic;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.myInput:focus::placeholder {
+    color: #666;
+} */
+@media (max-width:768px) {
+    .scrollToTop {
+
+        bottom: 65px;
+        width: 70px;
+        height: 70px;
+    }
+
+}

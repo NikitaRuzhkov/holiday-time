@@ -1,0 +1,19 @@
+.myInput {
+    width: 408px;
+    height: 62px;
+    background-color: #fff;
+    padding-left: 28px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #90A4AE;
+    outline: none;
+    font-size: 20px;
+}
+
+
+@media (max-width:768px) {
+    .myInput {
+        width: 100%;
+    }
+
+}

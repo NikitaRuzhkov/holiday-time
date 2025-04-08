@@ -1,0 +1,45 @@
+.calendar-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.react-datepicker-wrapper {
+    display: block;
+}
+
+.react-datepicker__input-container {
+    width: 350px;
+
+}
+
+.react-datepicker__input-container::before,
+.react-datepicker__input-container::after {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+    z-index: 1;
+    content: '';
+    position: absolute;
+}
+
+.react-datepicker__input-container::before {
+    top: 8px;
+    left: 15px;
+    width: 45px;
+    height: 45px;
+    background-image: url('../../../assets/images/calendar.png');
+}
+
+.react-datepicker__input-container::after {
+    top: 16px;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+    background-image: url('../../../assets/images/select-arrow.png');
+}
+
+.react-datepicker__day,
+.react-datepicker__day-name {
+    font-size: 15px;
+}
